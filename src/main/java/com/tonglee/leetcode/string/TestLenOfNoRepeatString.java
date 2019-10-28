@@ -26,11 +26,6 @@ import java.util.Map;
  *
  */
 public class TestLenOfNoRepeatString {
-	public static void main(String[] args) {
-		String input = "umvejcuuk";
-		System.out.println(lengthOfLongestSubstring(input));
-	}
-	
 	public static int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<>();
         List<Character> list = new ArrayList<>();
@@ -50,7 +45,7 @@ public class TestLenOfNoRepeatString {
         	map.put(sub, i);
         }
         maxLen = maxLen>map.size()?maxLen:map.size();
-		
+
 		return maxLen;
     }
 }
