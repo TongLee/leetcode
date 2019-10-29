@@ -9,7 +9,8 @@ import com.tonglee.leetcode.string.TestLenOfNoRepeatString;
 public class TestString {
   @Test(groups="testLenOfRepeatString")
   @Parameters({"param1","param2"})
-  public void run(String input, int result) {
+  public void testLenOfRepeatString(String input, int result) {
 	  Assert.assertEquals(TestLenOfNoRepeatString.lengthOfLongestSubstring(input), result);
   }
+  
 }

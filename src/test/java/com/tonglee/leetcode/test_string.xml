@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-  <test name="Test">
+  <test name="TestString">
   	<parameter name="param1"  value="umvejcuuk"/>
 	<parameter name="param2"  value="6"/>
     <classes>
