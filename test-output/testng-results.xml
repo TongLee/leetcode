@@ -1,74 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-27T17:17:05Z" name="Suite" finished-at="2019-10-27T17:17:05Z" duration-ms="120">
+  <suite started-at="2019-10-28T10:29:38Z" name="Default suite" finished-at="2019-10-28T10:29:38Z" duration-ms="49">
     <groups>
-      <group name="testLenOfRepeatString">
-        <method signature="TestString.run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@305b7c14]" name="run" class="com.tonglee.leetcode.TestString"/>
-        <method signature="TestString.run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@445b295b]" name="run" class="com.tonglee.leetcode.TestString"/>
-        <method signature="TestString.run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@c86b9e3]" name="run" class="com.tonglee.leetcode.TestString"/>
-      </group> <!-- testLenOfRepeatString -->
+      <group name="rotate">
+        <method signature="TestArray.testRotate4(com.tonglee.leetcode.TestArray$DataModel2)[pri:0, instance:com.tonglee.leetcode.TestArray@1e66f1f5]" name="testRotate4" class="com.tonglee.leetcode.TestArray"/>
+      </group> <!-- rotate -->
     </groups>
-    <test started-at="2019-10-27T17:17:05Z" name="Test" finished-at="2019-10-27T17:17:05Z" duration-ms="45">
-      <class name="com.tonglee.leetcode.TestString">
-        <test-method signature="run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@305b7c14]" started-at="2019-10-28T01:17:05Z" name="run" finished-at="2019-10-28T01:17:05Z" duration-ms="24" status="PASS">
+    <test started-at="2019-10-28T10:29:38Z" name="Default test" finished-at="2019-10-28T10:29:38Z" duration-ms="49">
+      <class name="com.tonglee.leetcode.TestArray">
+        <test-method signature="testRotate4(com.tonglee.leetcode.TestArray$DataModel2)[pri:0, instance:com.tonglee.leetcode.TestArray@1e66f1f5]" started-at="2019-10-28T18:29:38Z" name="testRotate4" data-provider="data_rotate" finished-at="2019-10-28T18:29:38Z" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[umvejcuuk]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6]]>
+                <![CDATA[com.tonglee.leetcode.TestArray$DataModel2@11bd0f3b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- com.tonglee.leetcode.TestString -->
-    </test> <!-- Test -->
-    <test started-at="2019-10-27T17:17:05Z" name="Test2" finished-at="2019-10-27T17:17:05Z" duration-ms="5">
-      <class name="com.tonglee.leetcode.TestString">
-        <test-method signature="run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@445b295b]" started-at="2019-10-28T01:17:05Z" name="run" finished-at="2019-10-28T01:17:05Z" duration-ms="2" status="PASS">
+        </test-method> <!-- testRotate4 -->
+        <test-method signature="testRotate4(com.tonglee.leetcode.TestArray$DataModel2)[pri:0, instance:com.tonglee.leetcode.TestArray@1e66f1f5]" started-at="2019-10-28T18:29:38Z" name="testRotate4" data-provider="data_rotate" finished-at="2019-10-28T18:29:38Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pwwkew]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
+                <![CDATA[com.tonglee.leetcode.TestArray$DataModel2@49912c99]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- com.tonglee.leetcode.TestString -->
-    </test> <!-- Test2 -->
-    <test started-at="2019-10-27T17:17:05Z" name="Test3" finished-at="2019-10-27T17:17:05Z" duration-ms="4">
-      <class name="com.tonglee.leetcode.TestString">
-        <test-method signature="run(java.lang.String, int)[pri:0, instance:com.tonglee.leetcode.TestString@c86b9e3]" started-at="2019-10-28T01:17:05Z" name="run" finished-at="2019-10-28T01:17:05Z" duration-ms="2" status="PASS">
+        </test-method> <!-- testRotate4 -->
+        <test-method signature="testRotate4(com.tonglee.leetcode.TestArray$DataModel2)[pri:0, instance:com.tonglee.leetcode.TestArray@1e66f1f5]" started-at="2019-10-28T18:29:38Z" name="testRotate4" data-provider="data_rotate" finished-at="2019-10-28T18:29:38Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dvdf]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
+                <![CDATA[com.tonglee.leetcode.TestArray$DataModel2@2dde1bff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- com.tonglee.leetcode.TestString -->
-    </test> <!-- Test3 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testRotate4 -->
+        <test-method signature="testRotate4(com.tonglee.leetcode.TestArray$DataModel2)[pri:0, instance:com.tonglee.leetcode.TestArray@1e66f1f5]" started-at="2019-10-28T18:29:38Z" name="testRotate4" data-provider="data_rotate" finished-at="2019-10-28T18:29:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.tonglee.leetcode.TestArray$DataModel2@550ee7e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRotate4 -->
+      </class> <!-- com.tonglee.leetcode.TestArray -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

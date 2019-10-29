@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
-    <parameter name="param1" value="umvejcuuk"/>
-    <parameter name="param2" value="6"/>
+  <test name="TestArray(failed)">
+    <parameter name="params" value="data_express"/>
     <classes>
-      <class name="com.tonglee.leetcode.TestString">
+      <class name="com.tonglee.leetcode.TestArray">
         <methods>
-          <include name="run" invocation-numbers="0"/>
+          <include name="testMaxProfit"/>
         </methods>
-      </class> <!-- com.tonglee.leetcode.TestString -->
+      </class> <!-- com.tonglee.leetcode.TestArray -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- TestArray(failed) -->
 </suite> <!-- Failed suite [Suite] -->
