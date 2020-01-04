@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.tonglee.leetcode;
+package com.tonglee.leetcode.array;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
