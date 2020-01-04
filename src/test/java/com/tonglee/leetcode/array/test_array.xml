@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestArray">
+  	<parameter name="params"  value="data_profit"/>
+    <classes>
+      <class name="com.tonglee.leetcode.array.TestArray"/>
+		<methods>
+			<include name="testMaxProfit"/><!-- 指定执行的方法 -->
+		</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

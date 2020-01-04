@@ -4,21 +4,21 @@
   	<parameter name="param1"  value="umvejcuuk"/>
 	<parameter name="param2"  value="6"/>
     <classes>
-      <class name="com.tonglee.leetcode.TestString"/>
+      <class name="com.tonglee.leetcode.array.TestString"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test2">
   	<parameter name="param1"  value="pwwkew"/>
 	<parameter name="param2"  value="3"/>
     <classes>
-      <class name="com.tonglee.leetcode.TestString"/>
+      <class name="com.tonglee.leetcode.array.TestString"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test3">
   	<parameter name="param1"  value="dvdf"/>
 	<parameter name="param2"  value="3"/>
     <classes>
-      <class name="com.tonglee.leetcode.TestString"/>
+      <class name="com.tonglee.leetcode.array.TestString"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
